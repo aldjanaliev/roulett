@@ -128,12 +128,6 @@ header{
     overflow:  hidden;
     display: block;
 }
-.btn:hover{
-    box-shadow: 0px 5px 60px rgba(69, 223, 15, 0.4), inset 0px 14px 21px rgba(255, 255, 255, 0.5);
-}
-.btn:focus{
-    box-shadow: 0px 5px 60px rgba(69, 223, 15, 0.4), inset 0px 14px 21px rgba(24, 24, 29, 0.63);
-}
 .btn::before{
     content: '';
     position: absolute;
