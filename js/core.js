@@ -70,11 +70,14 @@ $(document).ready(function () {
             },4300)
         },300)
         setTimeout(function(){
-            $('.button').css('display','none')
-            $('.btn-modal').css('display','block')
             setTimeout(function(){
+                $('.button').css('display','none')
+                $('.btn-modal').css('display','block')
                 $('.btn-modal').click()
+                $('.btn-modal').css('box-shadow','none')
             },1000)
         },4600)
     });
+
+   
 });
